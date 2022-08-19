@@ -14,3 +14,9 @@ def say_hello(thing_to_say)
 end
 
 say_hello "Hello World Ruby is great!"
+
+def say_my_name(thing_to_say)
+  puts thing_to_say
+end
+
+say_my_name "Kevin"
