@@ -73,3 +73,47 @@
 # last_name = gets.chomp
 
 # See analyzer.rb for homework assignment
+
+## ------ Part 19. Working with Numbers ------- ##
+
+# puts 1 + 2
+# Can use irb interface in terminal to execute the math functions 
+# When dividing (/) you must use a float (decmial points) on a number, or else Ruby rounds to the nearest integer
+
+# Integers
+# x = 5
+# y = 10
+# puts y / x
+
+# Strings
+# puts "5" * 2
+
+# # Lines
+# puts "-" * 20 # This will result in 20 dashes creating a line
+# # Times method
+# 20.times{ puts rand(10) } # rand method generates random number between 0 and number given
+
+# User input - calculator
+# puts "Simple calculator"
+# 25.times { print "-" }
+# puts
+# puts "Enter the first number"
+# num_1 = gets.chomp
+# puts "Enter the second number"
+# num_2 = gets.chomp
+# puts "The first number multiplied by the second number is #{num_1.to_i * num_2.to_i}"
+
+# modulo example found here https://www.youtube.com/watch?v=xqUsa4u_i3I
+# time conversion using modulo
+# THIS ISN'T WORKING -- WHY?
+
+# puts "Enter the number of mins"
+# num = gets.chomp
+
+# puts num
+
+# hours = num / 60
+# mins = num % 60
+
+# puts num.to_i + ":" + num.to_i
+
