@@ -120,4 +120,3 @@
 ## ------ Part 22. Comparison operators ------- ##
 
 # use .eql? to compare types - this does not compare the actual values
-
